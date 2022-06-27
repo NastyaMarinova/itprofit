@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UserVisibleDirective } from './user-profile/user-visible.directive';
 import { UsersExxampleComponent } from './comp/users-exxample/users-exxample.component';
+import { PipesExampleComponent } from './comp/pipes-example/pipes-example.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { UsersExxampleComponent } from './comp/users-exxample/users-exxample.com
     UserVisibleDirective,
     ZoomDirective,
     UsersExxampleComponent,
+    PipesExampleComponent,
   ],
   imports: [
     BrowserModule,
